@@ -21,7 +21,7 @@ const greet = (name) => \`Hello, \${name}!\`;
 ## Blockquote
 > "The best tool is the one you actually use."
 
-[Visit DevToolbox](/)
+[Visit codeBench](/)
 `;
 
 export default function MarkdownPreviewer() {
