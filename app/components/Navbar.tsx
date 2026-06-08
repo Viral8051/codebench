@@ -3,6 +3,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
+  { href: "/about", label: "About" },
+  { href: "/privacy", label: "Privacy" },
   { href: "/", label: "Tools" },
   // { href: "/cv", label: "CV" },
 ];

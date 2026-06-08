@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 export const metadata: Metadata = {
   title: "codeBench — Free Developer Tools",
@@ -19,8 +20,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7188533962283350"
      crossOrigin="anonymous"></script>
+      <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XXXXXXXXXX');
+        `}} />
       </head>
-      <body>{children}</body>
+      <body>
+        <Navbar/>
+        {children}
+      </body>
     </html>
   );
 }
