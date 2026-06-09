@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@/app/components/Navbar";
 import AdBanner from "@/app/components/AdBanner";
 
 type DiffLine = { type: "same" | "added" | "removed"; text: string };
@@ -35,7 +34,6 @@ export default function DiffChecker() {
 
   return (
     <>
-      <Navbar />
       <main style={{ maxWidth: "1200px", margin: "0 auto", padding: "32px 24px" }}>
         <AdBanner slot="top" />
         <div style={{ marginBottom: "20px" }}>

@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@/app/components/Navbar";
 import AdBanner from "@/app/components/AdBanner";
 
 const WORDS = "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo consequat duis aute irure dolor reprehenderit voluptate velit esse cillum eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum curabitur pretium tincidunt lacus nulla gravida orci lobortis eleifend pede sociis natoque penatibus magnis dis parturient montes nascetur ridiculus mus".split(" ");
@@ -43,7 +42,6 @@ export default function LoremIpsum() {
 
   return (
     <>
-      <Navbar />
       <main style={{ maxWidth: "1100px", margin: "0 auto", padding: "32px 24px", display: "flex", gap: "32px" }}>
         <div style={{ flex: 1, minWidth: 0 }}>
           <AdBanner slot="top" />

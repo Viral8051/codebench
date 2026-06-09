@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import Navbar from "@/app/components/Navbar";
 import AdBanner from "@/app/components/AdBanner";
 
 export default function TimestampConverter() {
@@ -46,7 +45,6 @@ export default function TimestampConverter() {
 
   return (
     <>
-      <Navbar />
       <main style={{ maxWidth: "1100px", margin: "0 auto", padding: "32px 24px", display: "flex", gap: "32px" }}>
         <div style={{ flex: 1, minWidth: 0 }}>
           <AdBanner slot="top" />

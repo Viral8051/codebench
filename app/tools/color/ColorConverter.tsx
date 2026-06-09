@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Navbar from "@/app/components/Navbar";
 import AdBanner from "@/app/components/AdBanner";
 
 function hexToRgb(hex: string) {
@@ -56,7 +55,6 @@ export default function ColorConverter() {
 
   return (
     <>
-      <Navbar />
       <main style={{ maxWidth: "1100px", margin: "0 auto", padding: "32px 24px", display: "flex", gap: "32px" }}>
         <div style={{ flex: 1, minWidth: 0 }}>
           <AdBanner slot="top" />

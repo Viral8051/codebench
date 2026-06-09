@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { marked } from "marked";
-import Navbar from "@/app/components/Navbar";
 import AdBanner from "@/app/components/AdBanner";
 
 const DEFAULT = `# Hello, Markdown!
@@ -30,7 +29,6 @@ export default function MarkdownPreviewer() {
 
   return (
     <>
-      <Navbar />
       <main style={{ maxWidth: "1200px", margin: "0 auto", padding: "32px 24px" }}>
         <AdBanner slot="top" />
         <div style={{ marginBottom: "20px" }}>
