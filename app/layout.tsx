@@ -19,10 +19,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <script
-          async
-          data-cfasync="false"
-          src={`https://5gvci.com/act/files/tag.min.js?z=${process.env.NEXT_PUBLIC_MONETAG_ZONE}`}
-        />
+  async
+  data-cfasync="false"
+  src="https://5gvci.com/act/files/tag.min.js?z=11121522"
+/>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7188533962283350"
      crossOrigin="anonymous"></script>
       <script dangerouslySetInnerHTML={{ __html: `
