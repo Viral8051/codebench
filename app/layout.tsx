@@ -18,6 +18,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <script
+          async
+          data-cfasync="false"
+          src={`https://5gvci.com/act/files/tag.min.js?z=${process.env.NEXT_PUBLIC_MONETAG_ZONE}`}
+        />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7188533962283350"
      crossOrigin="anonymous"></script>
       <script dangerouslySetInnerHTML={{ __html: `
@@ -26,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           gtag('js', new Date());
           gtag('config', 'G-XXXXXXXXXX');
         `}} />
-        <script>(function(s){s.dataset.zone='11121441',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+        
       </head>
       <body>
         <Navbar/>
