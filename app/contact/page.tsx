@@ -207,7 +207,7 @@ export default function Contact() {
         {/* Direct Contact */}
         <div style={{ marginTop: "32px", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px" }}>
           {[
-            { icon: "📧", label: "Email", value: "your@email.com", href: "mailto:your@email.com" },
+            { icon: "📧", label: "Email", value: "codeBench9632@outlook.com", href: "mailto:your@email.com" },
             { icon: "🌐", label: "Website", value: "codebench.online", href: "https://codebench.online" },
           ].map(c => (
             <a key={c.label} href={c.href} style={{ display: "flex", alignItems: "center", gap: "14px", background: "var(--bg2)", border: "1px solid var(--border)", borderRadius: "10px", padding: "16px", textDecoration: "none" }}>

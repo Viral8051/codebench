@@ -103,7 +103,7 @@ export default function About() {
           </h2>
           <div style={{ background: "var(--bg2)", border: "1px solid var(--border)", borderRadius: "12px", padding: "24px" }}>
             <p style={{ color: "var(--text2)", fontSize: "14px", lineHeight: 1.9, marginBottom: "12px" }}>
-              CodeBench was designed and built by a frontend developer from Jamnagar, Gujarat, India. It started as a personal project to have a single go-to place for everyday developer tasks — and grew into a full toolbox.
+              CodeBench was designed and built by a frontend developer from India. It started as a personal project to have a single go-to place for everyday developer tasks — and grew into a full toolbox.
             </p>
             <p style={{ color: "var(--text2)", fontSize: "14px", lineHeight: 1.9, marginBottom: "12px" }}>
               The goal is to keep adding useful tools regularly — if there&apos;s something you&apos;d like to see on CodeBench, reach out through the contact page. Every suggestion is read and considered.
