@@ -10,7 +10,7 @@ export default function Privacy() {
       <h2 style={{ color: "var(--text)", marginTop: "24px", marginBottom: "8px" }}>Third Party Services</h2>
       <p>We use Vercel for hosting. Vercel may collect anonymised access logs. See <a href="https://vercel.com/legal/privacy-policy" style={{ color: "var(--accent)" }}>Vercel's Privacy Policy</a>.</p>
       <h2 style={{ color: "var(--text)", marginTop: "24px", marginBottom: "8px" }}>Contact</h2>
-      <p>For any questions email: you@email.com</p>
+      <p>For any questions email: codeBench9632@outlook.com</p>
     </main>
   );
 }

@@ -12,7 +12,7 @@ export default function About() {
         Started as a side project to help developers save time on everyday tasks.
       </p>
       <p style={{ color: "var(--text2)", fontSize: "14px", lineHeight: 1.8 }}>
-        Have a tool suggestion? Email: you@email.com
+        Have a tool suggestion? Email: codeBench9632@outlook.com
       </p>
     </main>
   );
