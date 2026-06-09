@@ -26,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           gtag('js', new Date());
           gtag('config', 'G-XXXXXXXXXX');
         `}} />
+        <script>(function(s){s.dataset.zone='11121441',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
       </head>
       <body>
         <Navbar/>
